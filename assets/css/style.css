@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+/*BACKGROUND*/
+.bg { 
+    /* The image used */
+    background-image: url("../images/background.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    display: relative;
+}
+
+/*TEXT*/
+.glow {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 200px;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: glow;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-name: glow;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    z-index: 1;
+    position: relative;;
+    color: #000B26;
+    margin-left:auto; 
+    margin-right:0;
+
+}
+
+@-webkit-keyframes glow {
+    from { text-shadow: 0 0 0px red; }
+    to { text-shadow: 0 0 20px orangered; }
+}
+
+/*CRYSTALS*/
+.crystals {
+    z-index: 1;
+    bottom: 10px;
+    
+    
+}
+img {
+    height: 200px;
+    width:200px;
+
+}
+#crystal_1 {
+ top: 250px;
+ left: 120px;
+
+}
+#crystal_2 {
+ top: 300px;
+ right: 20px;
+
+}
+#crystal_3 {
+    left: 400px;
+   
+}
+#crystal_4 {
+    
+
+}
+
+.scoreBox {
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    background-color: white;
+}
+.winBox {
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    background-color: white;
+}
+.loseBox {
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    background-color: white;
+}
