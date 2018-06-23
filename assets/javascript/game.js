@@ -33,19 +33,6 @@ function updateScore () {
 };
 
 
-/*function winLose () {
-        if (win === true) { 
-                winsCounter + 1;
-                $("#win").text(winsCounter);
-                console.log(winsCounter);
-             };
-        if (lose === true) {
-                loseCounter + 1;
-                $("#lose").text(loseCounter);
-        }
-};*/
-
-
 $( document ).ready(function() {
 
                  //GENERATE A RANDOM NUMBER TO GUESS AND APPEND IT TO THE PAGE 
